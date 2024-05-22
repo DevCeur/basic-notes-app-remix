@@ -11,12 +11,8 @@ export default function PublicLayout() {
     <div className={styles.container}>
       <header className={styles.header}>
         <div className={styles.main_links}>
-          <Link to={ROUTE.NOTES}>Notes App</Link>
-
-          <div>
-            <Link to={ROUTE.NOTES}>Notes</Link>
-            <Link to={ROUTE.CREATE_NOTE}>Create Note</Link>
-          </div>
+          <Link to={ROUTE.NOTES}>Notes</Link>
+          <Link to={ROUTE.CREATE_NOTE}>Create Note</Link>
         </div>
 
         <form className={styles.auth_links}>

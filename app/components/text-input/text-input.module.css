@@ -14,8 +14,16 @@
 .container input {
   padding: 1rem 1.25rem;
 
+  font-size: 1rem;
+
   border: solid 1px lightgray;
   border-radius: 0.5rem;
 
   outline: none;
+}
+
+.error_message {
+  font-size: 0.75rem;
+
+  color: red;
 }

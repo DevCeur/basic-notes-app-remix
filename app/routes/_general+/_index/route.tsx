@@ -10,7 +10,7 @@ export default function HomeRoute() {
       <div className={styles.heading}>
         <h1>Basic Notes App</h1>
 
-        <p>Use this basic remix app, to create basic notes, edit them and delete them.</p>
+        <p>Use this basic remix app, to create notes, edit and delete them.</p>
       </div>
 
       <Link to={ROUTE.CREATE_NOTE} className={styles.cta}>

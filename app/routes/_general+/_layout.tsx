@@ -9,12 +9,7 @@ export default function PublicLayout() {
     <div className={styles.container}>
       <header className={styles.header}>
         <div className={styles.main_links}>
-          <Link to={ROUTE.HOME}>Notes App</Link>
-
-          <div>
-            <Link to={ROUTE.HOME}>Home</Link>
-            <Link to={ROUTE.ABOUT}>About</Link>
-          </div>
+          <Link to={ROUTE.HOME}>Home</Link>
         </div>
 
         <div className={styles.auth_links}>

@@ -10,7 +10,12 @@ export default function SignUpRoute() {
 
       <form className={styles.form_container}>
         <div className={styles.form_fields}>
-          <TextInput label="Email" type="email" placeholder="Your email" name="email" />
+          <TextInput
+            label="Email"
+            type="email"
+            placeholder="Your email"
+            name="email"
+          />
 
           <TextInput
             label="Password"
