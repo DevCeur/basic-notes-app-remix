@@ -1,0 +1,69 @@
+.container,
+.info,
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+
+  padding: 1rem;
+
+  gap: 2rem;
+
+  justify-content: space-between;
+
+  border: solid 1px #eaeaea;
+  border-radius: 0.5rem;
+}
+
+.info {
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 0.5rem;
+}
+
+.info p {
+  width: 600px;
+
+  font-size: 0.85rem;
+
+  color: gray;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.actions {
+  display: none;
+
+  gap: 1rem;
+}
+
+.container:hover .actions {
+  display: flex;
+}
+
+.actions button,
+.actions a {
+  width: 2rem;
+  height: 2rem;
+
+  background-color: transparent;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border: solid 1px lightgray;
+
+  border-radius: 0.5rem;
+}

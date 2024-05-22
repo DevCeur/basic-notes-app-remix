@@ -1,0 +1,26 @@
+.container,
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  gap: 2rem;
+}
+
+.heading {
+  gap: 1rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 1rem 2rem;
+
+  color: white;
+
+  background-color: black;
+
+  border-radius: 0.5rem;
+}
